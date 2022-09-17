@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@font-face{
+	font-family: "MuX1ne";
+	src: url("../fonts/MuX1neRounded-Heavy.woff2") format("woff2"),url("../fonts/MuX1neRounded-Heavy.woff") format("woff");
+	font-display:swap;
+	font-weight: 900;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "JetBrains Mono";
+	src: url("../fonts/JetBrainsMono-Bold.woff2") format("woff2"),url("../fonts/JetBrainsMono-Bold.woff") format("woff");
+	font-display:swap;
+	font-weight: 700;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: "MuX1ne Noise Symbols";
+	src: url("../fonts/MuX1neNoise-Symbols.woff2") format("woff2"),url("../fonts/MuX1neNoise-Symbols.woff") format("woff");
+	font-display:swap;
+	font-style:normal;
+}
+
+body{
+	font-family: "JetBrains Mono";
+	font-weight: 900;
+	text-align: center;
+	line-height: 2;
+	width: 900px;
+	
+}
+h1{
+	font-family: "MuX1ne";
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000;
+}
+h2{
+	font-size: 50px;
+	text-align: center;
+
+}
+.blok{
+	box-sizing: border-box;
+}
+
+.basic{
+	text-align: left;
+	text-indent: 20px;}
+.solo-career{
+	padding: 20px;
+	text-transform: capitalize;
+	white-space: nowrap;
+}
+.information{
+	text-indent: 20px;
+}
+.biography{
+	margin-bottom: 10px;
+	word-spacing: 10px;
+}
+a{
+	color: crimson;
+}
+.lunclan{
+	text-decoration: underline;
+}
+img{
+	margin: 100px;
+}
+.zmist{
+	text-decoration: underline
+}
+.symbols{
+	font-family:"MuX1ne Noise Symbols";
+	font-size: 20px;
+	
+}
